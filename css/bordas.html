@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bordas</title>
+
+		<style type="text/css">
+
+			#borda01{
+				/*Cria uma bordar ao redor do item ele agrupa todas as caracteristicas em uma unica tag*/
+				border: 4px dashed red;
+				/*controla o espaço ocupado na pagina*/
+				width: 50%;
+			}
+
+			#borda02{
+				/*permite ter um maior controle sobre as cores da borda, alem de ficar mais organizado.*/
+				/*Caso seja colocado apenas dois valores, o primeiro ira afetar a borda superior e inferior,*/
+				/* já o segundo afetar as bordas laterais.*/
+				/*em caso de mais de dois valores essa sera a ordem em que cada borda afeta:*/
+				/*cima -> direita -> baixo -> esquerda*/
+				/*caso o quarto valor não seja inserido a borda da esquerda será afetada pelo segundo valor da ordem*/
+				border-color: green blue yellow gray;
+				/*permite ter um maior controle sobre cada borda*/
+				border-width: 25px 15px 35px;
+				/*permite ter um maior controle sobre os estilo de cada borda*/
+				border-style: double solid;
+			}
+
+			.texto01{
+				background: violet;
+				text-align: center;
+				color: black;
+				width: 50%;
+				font-size: 200%;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="borda01">
+			<a href="https://www.w3schools.com/css/css_border.asp">
+				LINK SOBRE BORDAS CSS<br>
+			</a>
+			<p>Vai lá e teste algum deles</p>
+		</div>
+		<br>
+		<div id="borda02">
+			<p class="texto01">
+				Não tenha medo
+			</p>
+		</div>
+
+
+	</body>
+</html>

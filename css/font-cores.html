@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>fontes - cores</title>
+
+		<style type="text/css">
+
+
+			.textoFull{
+				/*
+                altera a cor de fundo do elemento editado
+                A cor pode ser seleciona pelos nomes ou numeros hexdecimais
+                */
+				background: lightgrey;
+				/*alinha o texto horizontalmente*/
+				text-align: center;
+                /*Define quanto que sera ocupado da tela*/
+				width: 50%;
+				/*altera o tamanho da letra*/
+                /*Tipos de medidas do tamanho
+                px-> tamanho fixo
+                % -> tamanho relativo
+                em -> tamanho relativo ao container pai
+                */
+                font-size: 100%;
+                /*Altera a fonte das letras*/
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+			}
+
+            .texto01{
+				font-size: 29px;
+                /*decora o texto com um linha abaixo do conteudo*/
+                /*text-decoration: underline;*/
+                /*Decora o texto com uma linha acima do conteudo*/
+                /*text-decoration: overline;*/
+                /*Decora o texto com linha sobe o conteudo*/
+                text-decoration: line-through;
+                /*altera a cor do conteudo*/
+				color: black;
+            }
+
+            .texto02{
+                font-size: 1.7em;
+                /*coloca o texto em italico*/
+                font-style: italic;
+				color: black;
+            }
+            .texto03{
+                font-size: 150%;
+                /*coloca o texto em negrito*/
+                font-weight: bold;
+				color: black;
+            }
+
+		</style>
+
+	</head>
+	<body>
+
+        <div class="textoFull">
+            <a href="https://www.w3schools.com/colors/colors_picker.asp" class="texto01">Veja as cores do texto aki</a>
+            <br>
+            <br>
+            <a href="https://www.w3schools.com/css/css_font.asp" class="texto02">Veja o tipo de fonte do texo aki</a>
+            <br>
+            <br>
+            <a href="https://www.w3schools.com/css/css_font_size.asp" class="texto03">Veja o tamanho da fonte aki</a>
+        </div>
+
+        <p class="texto01">Ola meu jovem</p>
+	</body>
+</html>
