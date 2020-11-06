@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+}
+
+body{
+    background-color: turquoise;
+}
+
+.titulo{
+    font-size: large;
+    text-decoration: underline;
+    color: rebeccapurple;
+    font-style: italic
+}
+
+.texto01{
+    font-size: medium;
+    color: violet;
+}
+
+.link{
+    color: yellow;
+    font-weight: bolder;
+}
