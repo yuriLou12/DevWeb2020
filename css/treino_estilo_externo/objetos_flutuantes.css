@@ -1,0 +1,34 @@
+.conteudo{
+    background: aquamarine;
+    border: 1px solid gray;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    /*
+    O float faz com que o conteudo saia do fluxo padrão do documento assim fazendo ele flutuar sobre outros objetos. caso o objeto que eteja flutuando encontre com outro eles não se sobrepoem ao outro. caso a tela seja menor que o espaço ocupado pelo conteudo o proximo item flutuante será enviado para baixo todo conteudo que não seja uma div ocupara o espaço restante e não ocupado pelas div's com float
+    */
+    float: right;
+
+}
+
+.conteudo1{
+    background: lightcoral;
+    border: 1px solid gray;
+    width: 150;
+    height: 150px;
+    margin: 10px;
+    float: left;
+
+}
+
+.clear{
+    /*Ele ocupa com um vazio todo o espaço não preenchido por objeto flutante */
+    clear: both;
+}
+
+.into{
+    background-color: lightcoral;
+    border: lightgreen 10px solid;
+}
+}

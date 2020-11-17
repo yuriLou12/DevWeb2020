@@ -1,0 +1,17 @@
+#box1{
+    background-color: silver;
+    border: #c54242 1px solid;
+    margin: 15px 35px;
+
+    width: 95%;
+
+}
+
+#box2{
+    background-color: skyblue;
+    border: #c54242 1px solid;
+    margin: 15px 250px;
+
+    width: 50%;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .borda{
+            border: solid 3px red;
+            /* 
+                O display altera o comportamento de uma tag.
+                Ex.: uma tag block pode ter o comportamento mudado para um estilo inline
+             */
+            display: inline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <!-- 
+            todo os elementos dentro dessa div são block's.
+            Eles tem as seguintes caracteristicas:
+            ocupam toda a tela e quando outro elemento block for inserido o segundo sera enviado para baixo do primeiro.
+        -->
+        <!-- 
+            todo os elementos dentro dessa div são inline's.
+            Eles tem as seguintes caracteristicas:
+            eles ocupam somente o espaço necesario e os procimos conteudos ficaram ao lado do anterior
+        -->
+
+        <h1 class="borda">Bloco 01</h1>
+        <h1 class="borda">Bloco 02</h1>        
+    </div>
+
+    <div class="inline_element">
+
+    </div>
+
+</body>
+</html>
