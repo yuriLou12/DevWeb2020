@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juvenal vai Passar?</title>
+
+    <script>
+        //declarando as variáveis
+        var nota01 = prompt('Digite a 1º nota do aluno: ');
+        var nota02 = prompt('Digite a 2º nota do aluno: ');
+        var nota03 = prompt('Digite a 3º nota do aluno: ');
+        var faltas = prompt('Digite a quantidade de faltas: ');
+        var media;
+        //convertando variáveis string para int
+        nota01 = parseFloat(nota01);
+        nota02 = parseFloat(nota02);
+        nota03 = parseFloat(nota03);
+        //realizando o calculo da média
+        media = nota01+nota02+nota03;
+        media = media/3;
+        //realizando as condições de verdadeiro e falso
+        if (media>=6 && faltas<5 && media<=10){
+            document.write('O total de faltas foi: '+faltas+'<br/>');
+            document.write('A nota do 1º triméstre: '+nota01+'<br/>');
+            document.write('A nota do 2º triméstre: '+nota02+'<br/>');
+            document.write('A nota do 3º triméstre: '+nota03+'<br/>');
+            document.write('A nota final foi de: '+media+'<br/>')
+            document.write('Parabéns você passou de ano meu jovem!');
+        }else{
+            document.write('O total de faltas foi: ')
+            document.write('A nota do 1º triméstre: '+nota01+'<br/>');
+            document.write('A nota do 2º triméstre: '+nota02+'<br/>');
+            document.write('A nota do 3º triméstre: '+nota03+'<br/>');
+            document.write('A nota final foi de: '+media+'<br/>')
+            document.write('Decepicionante.');
+        }
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
