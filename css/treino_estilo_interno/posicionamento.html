@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relativo e estático</title>
+
+    <style>
+
+        body {
+            background: #007FC7;
+        }
+
+        #container{
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            position: relative;
+        }
+
+        p{
+            width: 300px;
+        }
+
+        .absoluto{
+            /* position: absolute tem como função de */
+            position: absolute;
+            border: red 1px solid;
+            top: 0px;
+            right: 20px;
+            background: #f2f2f2;
+        }
+
+        .relativo{
+            border: solid 3px red;
+            /* positon: relative tem como função mudar a posição de um objeto. para realizar tal mudanção é necessário declarar qual posição ele se encontra. 
+            posições: top, right, bottom e left*/
+            position: relative;
+            bottom: 35px;
+            left: 160px;
+        }
+
+        .fixo{
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: fixed;
+            bottom: -15px;
+            right: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius lectus nec justo pellentesque, dignissim mollis sem congue. Etiam nec cursus tellus. Donec aliquam, eros ac pretium laoreet, elit neque auctor arcu, a sagittis purus odio in ex.
+        </p>
+
+        <p class="fixo">
+            P2 Sed posuere quam vel orci commodo pellentesque. Suspendisse rutrum luctus turpis eget elementum. Cras eu fermentum purus.
+
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius lectus nec justo pellentesque, dignissim mollis sem congue. Etiam nec cursus tellus. Donec aliquam, eros ac pretium laoreet, elit neque auctor arcu, a sagittis purus odio in ex.
+        </p>
+
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius lectus nec justo pellentesque, dignissim mollis sem congue. Etiam nec cursus tellus. Donec aliquam, eros ac pretium laoreet, elit neque auctor arcu, a sagittis purus odio in ex.
+        </p>
+
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius lectus nec justo pellentesque, dignissim mollis sem congue. Etiam nec cursus tellus. Donec aliquam, eros ac pretium laoreet, elit neque auctor arcu, a sagittis purus odio in ex.
+        </p>
+
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius lectus nec justo pellentesque, dignissim mollis sem congue. Etiam nec cursus tellus. Donec aliquam, eros ac pretium laoreet, elit neque auctor arcu, a sagittis purus odio in ex.
+        </p>
+
+        <p>
+            P3 Sed finibus a urna eu imperdiet. Maecenas augue justo, ullamcorper a urna eget, pellentesque placerat ex.
+        </p>
+
+        <p>
+            P3 Sed finibus a urna eu imperdiet. Maecenas augue justo, ullamcorper a urna eget, pellentesque placerat ex.
+        </p>
+
+        <p>
+            P3 Sed finibus a urna eu imperdiet. Maecenas augue justo, ullamcorper a urna eget, pellentesque placerat ex.
+        </p>
+
+        <p>
+            P3 Sed finibus a urna eu imperdiet. Maecenas augue justo, ullamcorper a urna eget, pellentesque placerat ex.
+        </p>
+
+        
+    </div>
+
+</body>
+</html>

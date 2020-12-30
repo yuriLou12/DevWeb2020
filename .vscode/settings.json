@@ -7,5 +7,6 @@
     "cSpell.words": [
         "gerais"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "python.pythonPath": "c:\\Users\\YBROS\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
