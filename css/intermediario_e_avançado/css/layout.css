@@ -1,0 +1,128 @@
+/* Aba geral */
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+
+}
+
+#container{
+    width: 85%; /*720px*/
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    /* 
+    max-width = largura maxima
+    min-width = largura minima
+    min-height = altura maxima
+    max-height = altura minima
+    */
+}
+
+
+/* aba da logo */
+
+
+#marca{
+    height: 300px;
+    background: #225992 url('../../imagem/cabecalho2.jpg')no-repeat center;
+    text-align: center;
+    line-height: 300px;
+}
+
+
+/* Aba do conteúdo */
+
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#cont_um{
+    
+    width: 64%;
+    float: left;
+}
+
+#cont_dois{
+
+    width: 33%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#cont_um h2,
+#cont_um p{
+    padding-left: 20px;
+}
+
+#cont_dois h2,
+#cont_dois p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img.img_noticia{
+    width: 96%;
+    padding: 2%;
+}
+
+
+/* 
+como configurar uma imagem de forma que ela não quebre a organização
+#imagem{
+    width: 90%;
+    overflow: hidden;
+} */
+
+/* Aba de navegação */
+
+
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#nav_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+}
+
+#nav_list li{
+    padding: 2px;
+}
+
+#nav_list a{
+    text-align: center;
+    line-height: 35px;
+    display: block;
+    color: black;
+    border: black solid 2px;
+    background: #d1d1d1;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#nav_list a:hover{
+    color: white;
+    border: white solid 2px;
+    background-color: #464040;
+}
+
+
+/* Aba do rodapé */
+
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+    text-align: center;
+}
+
+
