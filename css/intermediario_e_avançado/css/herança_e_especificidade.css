@@ -1,0 +1,54 @@
+/* Herança
+Formatação genericas podem ser aplicadas diretamente no body.
+BORDER e BACKGROUND não são elementos herdados dentro do body de forma geral
+
+Exemplo:
+body{
+    color: red;
+    background: silver;
+    border: honeydew 5px solid;   
+} 
+
+.geral{
+    border: 5px solid red;
+} 
+
+caso queira que o BORDER e BACKGROUND sejam herdados utilize o seletor geral. Exemplo:
+*{
+    background: silver;
+    border: honeydew 5px solid;
+}
+*/
+
+/*Especificidade
+Sempre que dois seletore forem insserido o ultimo é oque será aplicado. Ex:
+p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+A exeção é quando a tag !IMPORTANT é aplicada
+p{
+    color: red !important;
+}
+p{
+    color: blue;
+}
+
+Quanto mais especifico o seletor maior será a preferencia na ordem. Dentro de ordem de especificidade o id é maior que a class. Ex:
+*{
+    color: red;
+}
+h2{
+    color: blue;
+}
+
+*/
+
+
+
+
+

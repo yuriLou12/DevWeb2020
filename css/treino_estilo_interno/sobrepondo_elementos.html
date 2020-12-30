@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrepondo</title>
+    <style>
+
+        .cont01{
+            border: 1px solid red;
+            background: orange;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            /* ele realiza a sobreposição do conteudo sob outro. O conteudo que tiver o maior valor nessa propriedade será exibido primeiro */
+            z-index: 1;
+        }
+
+        .cont02{
+            border: 1px solid red;
+            background: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 0;
+        }
+
+        .cont03{
+            border: 1px solid red;
+            background: yellow;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 160px;
+            left: 160px;
+            z-index: 3;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="cont01">
+        Conteudo inserido 01
+    </div>
+
+    <div class="cont02">
+        Conteudo inserido 02
+    </div>
+    
+    <div class="cont03">
+        Conteudo inserido 03
+    </div>
+
+</body>
+</html>

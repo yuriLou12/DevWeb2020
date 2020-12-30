@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores_novos</title>
+    <style>
+
+        /* Seletor universal */
+        /* *{
+            border: 1px solid red;
+        } */
+
+        /* Seletor expecifico */
+        /* h1{
+            color: green;
+        } */
+
+        /* Seletor de ID */
+        /* #cabeca{
+            border: 3px solid black;
+        } */
+        
+        /* Seletor de Classe */
+        /* .cor{
+            color: green;
+        } */
+
+        /* limita a classe a um elemento especifico */
+        /* p.cor {
+            color: green;
+        } */
+
+        /* seletor de filho */
+        /* ADENDO: APENAS OS ELEMENTOS A DIREITA DO SIMBOLO ">" SERÃO EDITADOS. OS ELEMENTOS A ESQUERDA SERÃO REFERENTES AO ITEM QUE ARMAZENA O SEGUNDO A DIREITA*/
+        /* li>a{
+            color: yellow;
+        } */
+
+        /* Seleto de descedente */
+        /* Assim como o seletor filho ele ira editar o conteudo relacionado a outro no entanto ele não se limita a apenas um encapsulamento */
+        /* p a {
+            color: green;
+        } */
+
+        /* seleto de irmão adjacente */
+        /* ele altera o elemento seguinte ao item a esquerda */
+        h1+p{
+            color: red;
+        }
+
+        /* seletor de irmão geral */
+        /* ele altera TODO elemento seguinte ao item a esquerda */
+        h1~p{
+            color: sienna;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>
+            <a href="">Excalibur</a>
+        </li>
+        <li>
+            <a href="">Clarent</a>
+        </li>
+    </ul>
+
+
+   <span><a href="">Kanshou e Bakuya</a></span> 
+
+   <p>
+       GOB: <a href="">Enuma Elishi</a>
+        /
+       <span>
+           <a href="">Balmung</a>
+       </span>
+   </p>
+    
+    <div id="cabeca">
+        <h1>Titulo da pagina</h1>
+        <p>Parágrafo 1 da página</p>
+        <p>Parágrafo 2 da página</p>
+    </div>
+
+    <span class="cor">Teste span</span>
+    <p class="cor">Teste (insirá um conteudo)</p>
+</body>
+</html>
