@@ -1,0 +1,37 @@
+.conteudo{
+    color: #777;
+    background: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.conteudo2{
+    color: #777;
+    background: white;
+    text-align: center;
+    float:inherit;
+    width: 50%;
+    padding: 50px 80px;
+}
+
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+
+}
+
+.imagem1, .imagem2{
+    border: 1px solid red;
+    height: 100%;
+
+}
+
+.imagem1{
+    background: url(../img/paralax/imagem1.jpg)fixed;
+}
+
+.imagem2{
+    background: url(../img/paralax/imagem2.jpg) fixed;
+}
