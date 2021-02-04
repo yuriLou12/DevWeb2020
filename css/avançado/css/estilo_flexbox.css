@@ -1,0 +1,23 @@
+#conteudo{
+    background: grey;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    /* flex-direction - define a direção do objeto */
+    flex-direction: row;
+    /* flex-warp - define a se haverá quebra de linha do conteudo  */
+    flex-wrap: wrap;
+    /* justify-content - define a organização horizontal do conteudo */
+    justify-content: space-around;
+    /* align-items - define a organização vertical do conteudo */
+    align-items: center;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid black
+}

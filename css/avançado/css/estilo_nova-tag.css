@@ -1,0 +1,24 @@
+header{
+    border: solid 3px rgb(228, 168, 168);
+    background: grey;
+    padding: 10px;
+}
+
+nav{
+    border: grey 3px solid;
+    background: rgb(228, 168, 168);
+    padding: 10px;
+}
+
+footer{
+    background: grey;
+}
+
+article{
+    background: rgb(228, 168, 168);
+    padding: 10px;
+}
+
+section{
+    border: 1px solid grey;
+}
